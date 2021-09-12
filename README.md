@@ -1,6 +1,8 @@
 # anime_showcase
 
-simple flask app to showcase anime using myanimelist
+simple flask app to showcase anime using myanimelist unofficial api.
+
+![logo](assets/img/Anime-Showcase-1.png)
 
 ## Docker Quickstart
 
