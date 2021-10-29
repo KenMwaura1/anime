@@ -39,7 +39,7 @@
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
     "@babel/eslint-parser": "^7.14.7",
-    "babel-loader": "^8.1.0",
+    "babel-loader": "^8.2.3",
     "chokidar": "^3.4.2",
     "concurrently": "^6.3.0",
     "css-loader": "^6.5.0",
