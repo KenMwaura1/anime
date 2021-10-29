@@ -43,7 +43,7 @@
     "chokidar": "^3.4.2",
     "concurrently": "^6.3.0",
     "css-loader": "^6.5.0",
-    "eslint": "^7.10.0",
+    "eslint": "^8.1.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.25.2",
     "file-loader": "^6.1.0",
