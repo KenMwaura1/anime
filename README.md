@@ -1,5 +1,7 @@
 # anime_showcase
 
+[![Build Status](https://github.com/KenMwaura1/anime/actions/workflows/lint.yaml/badge.svg)](https://github.com/KenMwaura1/anime/actions/workflows/lint.yaml)
+
 simple flask app to showcase anime using myanimelist unofficial api.
 
 ![logo](assets/img/Anime-Showcase-1.png)
