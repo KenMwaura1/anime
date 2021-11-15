@@ -41,7 +41,7 @@
     "@babel/eslint-parser": "^7.16.0",
     "babel-loader": "^8.2.3",
     "chokidar": "^3.4.2",
-    "concurrently": "^6.3.0",
+    "concurrently": "^6.4.0",
     "css-loader": "^6.5.1",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
