@@ -49,11 +49,11 @@
     "file-loader": "^6.1.0",
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
-    "mini-css-extract-plugin": "^2.4.4",
+    "mini-css-extract-plugin": "^2.4.5",
     "raw-loader": "^4.0.1",
     "run-script-os": "^1.1.1",
     "url-loader": "^4.1.0",
-    "webpack": "^5.62.1",
+    "webpack": "^5.64.1",
     "webpack-cli": "^4.9.1"
   }
 }
