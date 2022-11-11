@@ -27,5 +27,5 @@ jobs:
         run: npm run lint
       # - name: Run Python lints
         # run: flask lint --check
-      - name: Run Python tests
-        run: flask test
+      #- name: Run Python tests
+        # run: flask test
