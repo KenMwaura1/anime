@@ -6,7 +6,7 @@ Werkzeug>=2.0.2
 click>=7.0
 
 # Database
-Flask-SQLAlchemy==2.5.1
+Flask-SQLAlchemy==3.0.2
 SQLAlchemy==1.4.44
 psycopg2-binary==2.9.5
 
