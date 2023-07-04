@@ -7,7 +7,7 @@ click>=7.0
 
 # Database
 Flask-SQLAlchemy==3.0.5
-SQLAlchemy==2.0.16
+SQLAlchemy==2.0.17
 psycopg2-binary==2.9.6
 
 # Migrations
