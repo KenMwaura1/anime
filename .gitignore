@@ -57,3 +57,7 @@ env/
 
 # Development database
 *.db
+
+# Static files
+/staticfiles/
+/build
