@@ -9,11 +9,10 @@ services:
         INSTALL_NODE_VERSION: 22.0.0
     image: "anime-development"
     ports:
-      - "5000:5000"
+      - "5001:5000"
       - "2992:2992"
     volumes:
       - ./:/app
-      - node-modules:/app/node_modules
       - ./dev.db:/tmp/dev.db
 
   flask-prod:
@@ -33,7 +32,6 @@ services:
       GUNICORN_WORKERS: 4
     volumes:
       - ./:/app
-      - node-modules:/app/node_modules
       - ./dev.db:/tmp/dev.db
 
   manage:
@@ -52,8 +50,4 @@ services:
     tty: true
     volumes:
       - ./:/app
-      - node-modules:/app/node_modules
       - ./dev.db:/tmp/dev.db
-
-volumes:
-  node-modules:
