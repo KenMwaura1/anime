@@ -21,6 +21,11 @@ lib64
 # Installer logs
 pip-log.txt
 
+#cache
+.cache
+__pycache__
+
+
 # Unit test / coverage reports
 .coverage
 .tox
@@ -45,6 +50,8 @@ docs/_build
 
 # Virtualenvs
 env/
+venv/
+
 
 # npm
 /node_modules/
@@ -57,3 +64,9 @@ env/
 
 # Development database
 *.db
+
+# Static files
+/staticfiles/
+/build
+/dist
+static/
