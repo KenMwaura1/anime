@@ -37,6 +37,7 @@ ENV PATH="/home/sid/.local/bin:${PATH}"
 
 COPY --from=builder --chown=sid:sid /app/anime/static /app/anime/static
 COPY requirements requirements
+RUN pip install --upgrade pip 
 RUN pip install --no-cache --user -r requirements/prod.txt
 
 COPY supervisord.conf /etc/supervisor/supervisord.conf
@@ -52,6 +53,7 @@ CMD ["-c", "/etc/supervisor/supervisord.conf"]
 # ================================= DEVELOPMENT ================================
 FROM builder AS development
 
+RUN pip install --upgrade pip
 RUN pip install --no-cache -r requirements/dev.txt
 
 EXPOSE 2992
