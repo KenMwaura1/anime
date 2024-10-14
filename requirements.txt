@@ -9,7 +9,7 @@ environs==11.0.0
 Flask==3.0.3
 Flask-Bcrypt==1.0.1
 Flask-Caching==2.3.0
-Flask-DebugToolbar==0.15.1
+Flask-DebugToolbar==0.16.0
 Flask-Login==0.6.3
 Flask-Migrate==4.0.7
 Flask-SQLAlchemy==3.1.1
