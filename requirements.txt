@@ -33,4 +33,4 @@ typing_extensions==4.12.2
 Werkzeug==3.0.4
 WTForms==3.2.1
 zope.event==5.0
-zope.interface==7.1.0
+zope.interface==7.1.1
