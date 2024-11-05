@@ -49,7 +49,7 @@
     "globals": "^15.11.0",
     "less": "^4.2.0",
     "less-loader": "^12.2.0",
-    "mini-css-extract-plugin": "^2.9.1",
+    "mini-css-extract-plugin": "^2.9.2",
     "raw-loader": "^4.0.1",
     "run-script-os": "^1.1.1",
     "url-loader": "^4.1.0",
