@@ -2,7 +2,7 @@
 -r prod.txt
 
 # Testing
-pytest==8.3.3
+pytest==8.3.4
 WebTest==3.0.2
 factory-boy==3.3.1
 pdbpp==0.10.3
