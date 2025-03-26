@@ -38,4 +38,4 @@ Flask-DebugToolbar==0.16.0
 
 # Environment variable parsing
 environs==14.1.1
-python-dotenv==1.0.1
+python-dotenv==1.1.0
