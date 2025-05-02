@@ -48,7 +48,7 @@
     "file-loader": "^6.1.0",
     "globals": "^16.0.0",
     "less": "^4.3.0",
-    "less-loader": "^12.2.0",
+    "less-loader": "^12.3.0",
     "mini-css-extract-plugin": "^2.9.2",
     "raw-loader": "^4.0.1",
     "run-script-os": "^1.1.1",
