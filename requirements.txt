@@ -26,7 +26,7 @@ MarkupSafe==3.0.2
 marshmallow==4.0.0
 packaging==25.0
 psycopg2-binary==2.9.10
-python-dotenv==1.1.0
+python-dotenv==1.1.1
 SQLAlchemy==2.0.41
 supervisor==4.2.5
 typing_extensions==4.14.0
