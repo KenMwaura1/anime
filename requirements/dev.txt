@@ -5,7 +5,7 @@
 pytest==8.4.1
 WebTest==3.0.6
 factory-boy==3.3.3
-pdbpp==0.11.6
+pdbpp==0.11.7
 
 # Lint and code style
 black==25.1.0
