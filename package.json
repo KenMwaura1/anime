@@ -30,14 +30,14 @@
   },
   "homepage": "https://github.com/KenMwaura1/anime#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-free": "^7.0.1",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.7",
     "jquery": "^3.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.28.0",
-    "@babel/eslint-parser": "^7.27.5",
+    "@babel/eslint-parser": "^7.28.4",
     "@babel/preset-env": "^7.27.2",
     "@eslint/js": "^9.29.0",
     "babel-loader": "^10.0.0",

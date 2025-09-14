@@ -1,20 +1,20 @@
 # Everything needed in production
 
 # Flask
-Flask==3.1.1
+Flask==3.1.2
 Werkzeug>=2.0.2
 click>=7.0
 
 # Database
 Flask-SQLAlchemy==3.1.1
-SQLAlchemy==2.0.41
+SQLAlchemy==2.0.43
 psycopg2-binary==2.9.10
 
 # Migrations
 Flask-Migrate==4.1.0
 
 # Forms
-email-validator==2.2.0
+email-validator==2.3.0
 Flask-WTF==1.2.2
 WTForms==3.2.1
 
