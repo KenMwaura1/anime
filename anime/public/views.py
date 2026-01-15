@@ -10,6 +10,7 @@ from flask import (
     url_for,
 )
 from flask_login import login_required, login_user, logout_user
+from urllib.parse import urlparse
 
 from anime.extensions import login_manager
 from anime.public.forms import LoginForm
@@ -18,6 +19,22 @@ from anime.user.models import User
 from anime.utils import flash_errors
 
 blueprint = Blueprint("public", __name__, static_folder="../static")
+
+
+def is_safe_redirect_url(target):
+    """Return True if the redirect target is a safe local URL."""
+    if not target:
+        return False
+    # Normalize backslashes, which some browsers accept as path separators.
+    target = target.replace("\\", "/")
+    parsed = urlparse(target)
+    # Disallow any URL that specifies a scheme or network location.
+    if parsed.scheme or parsed.netloc:
+        return False
+    # Only allow relative paths within this application.
+    if not target.startswith("/"):
+        return False
+    return True
 
 
 @login_manager.user_loader
@@ -36,7 +53,11 @@ def home():
         if form.validate_on_submit():
             login_user(form.user)
             flash("You are logged in.", "success")
-            redirect_url = request.args.get("next") or url_for("user.members")
+            next_url = request.args.get("next")
+            if next_url and is_safe_redirect_url(next_url):
+                redirect_url = next_url
+            else:
+                redirect_url = url_for("user.members")
             return redirect(redirect_url)
         else:
             flash_errors(form)
