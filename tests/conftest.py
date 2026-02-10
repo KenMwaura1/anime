@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Defines fixtures available to all tests."""
 
 import logging
@@ -43,6 +42,7 @@ def db(app):
     # Explicitly close DB connection
     _db.session.close()
     _db.drop_all()
+    _db.engine.dispose()
 
 
 @pytest.fixture
