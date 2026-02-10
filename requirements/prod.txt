@@ -1,27 +1,27 @@
 # Everything needed in production
 
 # Flask
-Flask==3.0.3
+Flask==3.1.2
 Werkzeug>=2.0.2
 click>=7.0
 
 # Database
 Flask-SQLAlchemy==3.1.1
-SQLAlchemy==2.0.35
-psycopg2-binary==2.9.9
+SQLAlchemy==2.0.46
+psycopg2-binary==2.9.11
 
 # Migrations
-Flask-Migrate==4.0.7
+Flask-Migrate==4.1.0
 
 # Forms
-email-validator==2.2.0
-Flask-WTF==1.2.1
-WTForms==3.1.2
+email-validator==2.3.0
+Flask-WTF==1.2.2
+WTForms==3.2.1
 
 # Deployment
-gevent==24.2.1
+gevent==25.9.1
 gunicorn>=19.9.0
-supervisor==4.2.5
+supervisor==4.3.0
 
 # Flask Static Digest
 Flask-Static-Digest==0.4.1
@@ -37,5 +37,5 @@ Flask-Caching>=1.7.2
 Flask-DebugToolbar==0.16.0
 
 # Environment variable parsing
-environs==11.0.0
-python-dotenv==1.0.1
+environs==14.5.0
+python-dotenv==1.2.1
