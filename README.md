@@ -48,10 +48,24 @@ Run the following commands to bootstrap your environment if you are unable to ru
 
 ```bash
 cd anime
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements/dev.txt
 npm install
 npm run-script build
 npm start  # run the webpack dev server and flask server using concurrently
+```
+
+To run tests:
+
+```bash
+pytest
+```
+
+To run linting:
+
+```bash
+ruff check .
 ```
 
 You will see a pretty welcome screen.
