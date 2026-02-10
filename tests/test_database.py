@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 """Database unit tests."""
+
 import pytest
 from flask_login import UserMixin
 from sqlalchemy.orm.exc import ObjectDeletedError
@@ -55,7 +55,9 @@ class TestCRUDMixin:
         user = ExampleUserModel(username="foo", email="foo@bar.com")
         user.save()
         user.update(commit=commit, username="bar")
-        retrieved = db.session.execute("""select * from testusers""").fetchone()
+        from sqlalchemy import text
+
+        retrieved = db.session.execute(text("select * from testusers")).fetchone()
         assert retrieved.username == expected
 
 

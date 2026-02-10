@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Test forms."""
 
 from anime.public.forms import LoginForm
@@ -33,7 +32,7 @@ class TestRegisterForm:
         """Register with success."""
         form = RegisterForm(
             username="newusername",
-            email="new@test.test",
+            email="new@example.com",
             password="example",
             confirm="example",
         )

@@ -1,5 +1,7 @@
-# -*- coding: utf-8 -*-
 """Public section, including homepage and signup."""
+
+from urllib.parse import urlparse
+
 from flask import (
     Blueprint,
     current_app,
@@ -10,7 +12,6 @@ from flask import (
     url_for,
 )
 from flask_login import login_required, login_user, logout_user
-from urllib.parse import urlparse
 
 from anime.extensions import login_manager
 from anime.public.forms import LoginForm
@@ -32,9 +33,7 @@ def is_safe_redirect_url(target):
     if parsed.scheme or parsed.netloc:
         return False
     # Only allow relative paths within this application.
-    if not target.startswith("/"):
-        return False
-    return True
+    return target.startswith("/")
 
 
 @login_manager.user_loader
