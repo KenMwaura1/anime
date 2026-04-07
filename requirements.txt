@@ -27,10 +27,10 @@ marshmallow==4.0.1
 packaging==26.0
 psycopg2-binary==2.9.11
 python-dotenv==1.2.1
-SQLAlchemy==2.0.46
+SQLAlchemy==2.0.49
 supervisor==4.3.0
 typing_extensions==4.15.0
-Werkzeug==3.1.6
+Werkzeug==3.1.8
 WTForms==3.2.1
 zope.event==6.0
 zope.interface==8.0.1
