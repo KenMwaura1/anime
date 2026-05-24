@@ -3,7 +3,7 @@ bcrypt==5.0.0
 blinker==1.9.0
 cachelib==0.13.0
 click==8.1.8
-dnspython==2.7.0
+dnspython==2.8.0
 email_validator==2.3.0
 environs==15.0.1
 Flask==3.1.3
