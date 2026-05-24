@@ -5,10 +5,10 @@ cachelib==0.13.0
 click==8.1.8
 dnspython==2.7.0
 email_validator==2.3.0
-environs==14.4.0
+environs==15.0.1
 Flask==3.1.3
 Flask-Bcrypt==1.0.1
-Flask-Caching==2.3.1
+Flask-Caching==2.4.0
 Flask-DebugToolbar==0.16.0
 Flask-Login==0.6.3
 Flask-Migrate==4.1.0
@@ -25,7 +25,7 @@ Mako==1.3.11
 MarkupSafe==3.0.3
 marshmallow==4.0.1
 packaging==26.1
-psycopg2-binary==2.9.11
+psycopg2-binary==2.9.12
 python-dotenv==1.2.1
 SQLAlchemy==2.0.49
 supervisor==4.3.0
